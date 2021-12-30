@@ -1,4 +1,5 @@
-# ML_IOS
+# AsteroidNews
+
 ## Example project which uses SceneKit framework to show objects with Near Earth Asteroids information.
 
 ## Objects shown:
