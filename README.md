@@ -6,7 +6,9 @@
 - Asteroid
 - Star Particles
  
-<img src="https://user-images.githubusercontent.com/66485679/147744484-07736cf9-7be5-445d-bda5-9c68ccfeb747.png" >
+
+
+<img src="https://user-images.githubusercontent.com/66485679/147744919-8423da32-95da-4814-98c2-dd450f438535.png" >
 
 
 
