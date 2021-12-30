@@ -11,7 +11,7 @@
 - Uses SceneKit to show Star Particles and rotating Earth.
 - Uses NeoWs Api to show asteroid information
  
-<img src="https://user-images.githubusercontent.com/66485679/147752628-900bf355-1dad-462c-898e-83284669466a.png" > <img src="https://user-images.githubusercontent.com/66485679/147753608-f55b4856-4125-481c-9345-866862fb702c.png" >
+<img src="https://user-images.githubusercontent.com/66485679/147752628-900bf355-1dad-462c-898e-83284669466a.png" ><img src="https://user-images.githubusercontent.com/66485679/147753608-f55b4856-4125-481c-9345-866862fb702c.png" >
 
 ## Usage
 Run pod install to add dependencies.
