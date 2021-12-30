@@ -7,11 +7,17 @@
 2. Alamofire
 3. SwiftyJSON
 
+## Features
 - Uses SceneKit to show Start Particles and rotating Earth.
-<img src="https://user-images.githubusercontent.com/66485679/147744919-8423da32-95da-4814-98c2-dd450f438535.png" >
+- Uses NeoWs Api to show asteroid information
+ 
+<img src="https://user-images.githubusercontent.com/66485679/147752628-900bf355-1dad-462c-898e-83284669466a.png" > <img src="https://user-images.githubusercontent.com/66485679/147752635-dbae8239-96bf-41f5-bcea-32903026d3f6.png" >
 
-- Uses SceneKit to show Asteroid and NeoWs Api to show asteroid information.
+## Usage
+Run pod install to add dependencies.
 
+## Author
+Simran Kaur: @simrankaurg555@gmail.com
 
 ## License
 This project is under MIT License.
