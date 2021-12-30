@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AsteroidBottomCell" rowHeight="144" id="aOL-VY-IXw" customClass="AsteroidBottomCell" customModule="AsteroidNews" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="459" height="144"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aOL-VY-IXw" id="BzX-8f-Kpg">
+                <rect key="frame" x="0.0" y="0.0" width="459" height="144"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Neo reference ID:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dpp-cs-Y19">
+                        <rect key="frame" x="10" y="10" width="127.5" height="18.5"/>
+                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
+                        <color key="textColor" systemColor="systemBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Orbit ID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xvv-PX-PD0">
+                        <rect key="frame" x="10" y="38.5" width="64" height="18.5"/>
+                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n8s-ko-4Mv">
+                        <rect key="frame" x="269.5" y="48" width="179.5" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bpg-eK-0Uo">
+                        <rect key="frame" x="269.5" y="19.5" width="179.5" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance in Km/h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkI-Ul-GdH">
+                        <rect key="frame" x="10" y="67" width="124.5" height="38.5"/>
+                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Distance in Km/s" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOa-uz-iBO">
+                        <rect key="frame" x="10" y="115.5" width="122.5" height="18.5"/>
+                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
+                        <color key="textColor" systemColor="systemBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VqS-HM-3BG">
+                        <rect key="frame" x="269.5" y="86.5" width="179.5" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1m-SK-Reh">
+                        <rect key="frame" x="269.5" y="125" width="179.5" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Dpp-cs-Y19" firstAttribute="leading" secondItem="BzX-8f-Kpg" secondAttribute="leading" constant="10" id="1Wl-k2-uWC"/>
+                    <constraint firstAttribute="trailing" secondItem="Bpg-eK-0Uo" secondAttribute="trailing" constant="10" id="3ZV-ip-4Xn"/>
+                    <constraint firstItem="Bpg-eK-0Uo" firstAttribute="centerY" secondItem="Dpp-cs-Y19" secondAttribute="centerY" id="4hg-oK-9ol"/>
+                    <constraint firstItem="T1m-SK-Reh" firstAttribute="leading" secondItem="BzX-8f-Kpg" secondAttribute="centerX" constant="40" id="7sc-E4-s8n"/>
+                    <constraint firstItem="Xvv-PX-PD0" firstAttribute="top" secondItem="Dpp-cs-Y19" secondAttribute="bottom" constant="10" id="Hce-vt-LGB"/>
+                    <constraint firstAttribute="bottom" secondItem="eOa-uz-iBO" secondAttribute="bottom" constant="10" id="I9e-cu-aP4"/>
+                    <constraint firstItem="bkI-Ul-GdH" firstAttribute="leading" secondItem="Xvv-PX-PD0" secondAttribute="leading" id="PHg-HF-fqY"/>
+                    <constraint firstAttribute="trailing" secondItem="n8s-ko-4Mv" secondAttribute="trailing" constant="10" id="PQn-Iq-4Ot"/>
+                    <constraint firstItem="Bpg-eK-0Uo" firstAttribute="leading" secondItem="BzX-8f-Kpg" secondAttribute="centerX" constant="40" id="Qqh-wa-FmD"/>
+                    <constraint firstItem="Dpp-cs-Y19" firstAttribute="top" secondItem="BzX-8f-Kpg" secondAttribute="top" constant="10" id="eks-i3-onk"/>
+                    <constraint firstItem="T1m-SK-Reh" firstAttribute="centerY" secondItem="eOa-uz-iBO" secondAttribute="centerY" id="fQa-TC-FvZ"/>
+                    <constraint firstItem="eOa-uz-iBO" firstAttribute="top" secondItem="bkI-Ul-GdH" secondAttribute="bottom" constant="10" id="fzK-YQ-p7z"/>
+                    <constraint firstItem="VqS-HM-3BG" firstAttribute="centerY" secondItem="bkI-Ul-GdH" secondAttribute="centerY" id="hDQ-Tb-YDT"/>
+                    <constraint firstItem="n8s-ko-4Mv" firstAttribute="centerY" secondItem="Xvv-PX-PD0" secondAttribute="centerY" id="haw-ze-14R"/>
+                    <constraint firstItem="n8s-ko-4Mv" firstAttribute="leading" secondItem="BzX-8f-Kpg" secondAttribute="centerX" constant="40" id="lmK-rh-dLl"/>
+                    <constraint firstItem="VqS-HM-3BG" firstAttribute="trailing" secondItem="n8s-ko-4Mv" secondAttribute="trailing" id="lor-4h-Poy"/>
+                    <constraint firstItem="VqS-HM-3BG" firstAttribute="leading" secondItem="BzX-8f-Kpg" secondAttribute="centerX" constant="40" id="nW0-UV-Nme"/>
+                    <constraint firstItem="Xvv-PX-PD0" firstAttribute="leading" secondItem="BzX-8f-Kpg" secondAttribute="leading" constant="10" id="ra6-0a-BMn"/>
+                    <constraint firstItem="bkI-Ul-GdH" firstAttribute="top" secondItem="Xvv-PX-PD0" secondAttribute="bottom" constant="10" id="sZy-BW-H8x"/>
+                    <constraint firstItem="T1m-SK-Reh" firstAttribute="trailing" secondItem="VqS-HM-3BG" secondAttribute="trailing" id="uHu-dQ-wlZ"/>
+                    <constraint firstItem="eOa-uz-iBO" firstAttribute="leading" secondItem="BzX-8f-Kpg" secondAttribute="leading" constant="10" id="xcc-ga-5Hp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="Tmv-47-FjK"/>
+            <connections>
+                <outlet property="kilometersPerHourDistanceLbl" destination="VqS-HM-3BG" id="B9y-U1-9aw"/>
+                <outlet property="kilometersPerHourTitleDistanceLbl" destination="bkI-Ul-GdH" id="VTY-w7-g1K"/>
+                <outlet property="kilometersPerSecondDistanceLbl" destination="T1m-SK-Reh" id="2P5-EF-6za"/>
+                <outlet property="kilometersPerSecondTitleDistanceLbl" destination="eOa-uz-iBO" id="DOQ-XP-PZa"/>
+                <outlet property="neoReferenceIdLbl" destination="Bpg-eK-0Uo" id="Bbu-oJ-Kdp"/>
+                <outlet property="neoReferenceIdTitleLbl" destination="Dpp-cs-Y19" id="bnK-bO-8UY"/>
+                <outlet property="orbitIDLbl" destination="n8s-ko-4Mv" id="WfY-Do-Qan"/>
+                <outlet property="orbitIDTitleLbl" destination="Xvv-PX-PD0" id="7FG-Um-y0D"/>
+            </connections>
+            <point key="canvasLocation" x="-134.05797101449275" y="79.017857142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

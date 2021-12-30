@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AsteroidTopCell" rowHeight="139" id="KGk-i7-Jjw" customClass="AsteroidTopCell" customModule="AsteroidNews" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="459" height="139"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="459" height="139"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Hazardous:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPL-Wr-5Hm">
+                        <rect key="frame" x="10" y="38.5" width="82" height="18.5"/>
+                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OeB-tB-17O">
+                        <rect key="frame" x="269.5" y="48" width="179.5" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Observation:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bnC-aS-00h">
+                        <rect key="frame" x="10" y="67" width="131" height="33.5"/>
+                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Last Observation:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OYI-7D-DDS">
+                        <rect key="frame" x="10" y="110.5" width="127.5" height="18.5"/>
+                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
+                        <color key="textColor" systemColor="systemBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMr-lB-HyN">
+                        <rect key="frame" x="269.5" y="84" width="179.5" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8K9-rX-TGg">
+                        <rect key="frame" x="269.5" y="120" width="179.5" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Orbiting Body: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3w-MQ-Kdf">
+                        <rect key="frame" x="10" y="10" width="110" height="18.5"/>
+                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J8Y-zJ-Dej">
+                        <rect key="frame" x="269.5" y="19.5" width="179.5" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.85978334940000001" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="8K9-rX-TGg" firstAttribute="centerY" secondItem="OYI-7D-DDS" secondAttribute="centerY" id="7qG-bq-lhm"/>
+                    <constraint firstItem="bnC-aS-00h" firstAttribute="leading" secondItem="aPL-Wr-5Hm" secondAttribute="leading" id="Ds7-wT-4KV"/>
+                    <constraint firstItem="YMr-lB-HyN" firstAttribute="centerY" secondItem="bnC-aS-00h" secondAttribute="centerY" id="Eyg-vj-qxE"/>
+                    <constraint firstItem="OeB-tB-17O" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="40" id="Fj5-l2-97e"/>
+                    <constraint firstAttribute="trailing" secondItem="J8Y-zJ-Dej" secondAttribute="trailing" constant="10" id="GPI-Nj-sJZ"/>
+                    <constraint firstAttribute="trailing" secondItem="OeB-tB-17O" secondAttribute="trailing" constant="10" id="Kis-Yd-CYb"/>
+                    <constraint firstItem="8K9-rX-TGg" firstAttribute="trailing" secondItem="YMr-lB-HyN" secondAttribute="trailing" id="MTe-su-X1t"/>
+                    <constraint firstItem="bnC-aS-00h" firstAttribute="top" secondItem="aPL-Wr-5Hm" secondAttribute="bottom" constant="10" id="Oem-KE-K7u"/>
+                    <constraint firstAttribute="bottom" secondItem="OYI-7D-DDS" secondAttribute="bottom" constant="10" id="PjS-5h-1aB"/>
+                    <constraint firstItem="aPL-Wr-5Hm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="UZd-VL-V3Y"/>
+                    <constraint firstItem="aPL-Wr-5Hm" firstAttribute="top" secondItem="o3w-MQ-Kdf" secondAttribute="bottom" constant="10" id="YCq-nr-T43"/>
+                    <constraint firstItem="OYI-7D-DDS" firstAttribute="top" secondItem="bnC-aS-00h" secondAttribute="bottom" constant="10" id="ars-L1-uhD"/>
+                    <constraint firstItem="8K9-rX-TGg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="40" id="c1g-N0-Ew7"/>
+                    <constraint firstItem="OeB-tB-17O" firstAttribute="centerY" secondItem="aPL-Wr-5Hm" secondAttribute="centerY" id="iEY-n3-F8z"/>
+                    <constraint firstItem="J8Y-zJ-Dej" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="40" id="lF8-Zv-QEb"/>
+                    <constraint firstItem="o3w-MQ-Kdf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="lVO-t7-Vrf"/>
+                    <constraint firstItem="o3w-MQ-Kdf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="oJk-LS-7eI"/>
+                    <constraint firstItem="OYI-7D-DDS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="pUq-9V-s9c"/>
+                    <constraint firstItem="J8Y-zJ-Dej" firstAttribute="centerY" secondItem="o3w-MQ-Kdf" secondAttribute="centerY" id="tob-9u-QO0"/>
+                    <constraint firstItem="YMr-lB-HyN" firstAttribute="trailing" secondItem="OeB-tB-17O" secondAttribute="trailing" id="zJw-NJ-R4M"/>
+                    <constraint firstItem="YMr-lB-HyN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="40" id="zV4-1Z-b11"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="firstObservationLbl" destination="YMr-lB-HyN" id="SLa-cZ-lyc"/>
+                <outlet property="firstObservationTitleLbl" destination="bnC-aS-00h" id="BgG-Vc-Zj2"/>
+                <outlet property="hazardousLbl" destination="OeB-tB-17O" id="gLR-cN-Rtz"/>
+                <outlet property="hazardousTitleLbl" destination="aPL-Wr-5Hm" id="xYj-I1-Ktr"/>
+                <outlet property="lastObservationLbl" destination="8K9-rX-TGg" id="yIa-pr-bjk"/>
+                <outlet property="lastObservationTitleLbl" destination="OYI-7D-DDS" id="WbD-RW-8ah"/>
+                <outlet property="orbitingBodyLbl" destination="J8Y-zJ-Dej" id="Mch-s8-uuF"/>
+                <outlet property="orbitingBodyTitleLbl" destination="o3w-MQ-Kdf" id="T68-VR-mdR"/>
+            </connections>
+            <point key="canvasLocation" x="-134.05797101449275" y="20.424107142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
