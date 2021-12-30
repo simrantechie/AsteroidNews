@@ -23,7 +23,6 @@ Simran Kaur: @simrankaurg555@gmail.com
 ## License
 This project is under MIT License.
 
-![Screenshot 2021-12-30 at 6 06 02 PM]()
 
 
 
